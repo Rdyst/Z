@@ -1,5 +1,8 @@
 
 body{margin: 0;}
+html{
+    scroll-behavior: smooth;
+    }
 .container{
     display: grid;
     background-color: black;
@@ -80,3 +83,6 @@ body{margin: 0;}
 .container>p{
     color: white;
 }
+.web{
+    color: blue;
+    }
