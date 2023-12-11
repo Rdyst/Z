@@ -1,0 +1,82 @@
+
+body{margin: 0;}
+.container{
+    display: grid;
+    background-color: black;
+    height: 110vh;
+    margin: 0;
+    place-items: center;
+
+}
+
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: gray;
+    position: fixed;
+    top: 10px;
+    left: 4px;
+    right: 83vw;
+    border: 3px solid white;
+    
+}
+.sasaimage{
+    left: 100px;
+}
+.sasaimage>img{
+    margin-left: 10px ;
+    margin-top: 8px;
+    width: 80px;
+    height: 100px;
+
+}
+.jmeno{
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+    
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 380px 380px;
+    place-items: center;
+    background-color: gray;
+    margin-top: 120px;
+    border: 3px solid white;
+}
+
+.main>div{
+    background-color: white;
+    border: 3px solid black;
+}
+.main>div>img{
+    width: 200px;
+    height: 155px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 15px;
+}
+.main>div>h1{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.main>div>h2{
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.secret>a{
+    text-decoration: none;
+    color: black;
+
+}
+.container>p{
+    color: white;
+}
